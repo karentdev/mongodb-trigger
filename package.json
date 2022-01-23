@@ -1,0 +1,13 @@
+{
+  "name": "mongo_db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "insertar_datos": "node ./datos/index.js",
+    "probar_trigger": "node index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "6.1.7"
+  }
+}
